@@ -45,13 +45,15 @@ class _LoginPageState extends State<LoginPage> {
           SizedBox(
             height: double.infinity,
             width: double.infinity,
-            child: Image.asset(
-              "assets/c15.jpg",
+            child: Image.network(
+              "https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
               fit: BoxFit.cover, // Makes background fill the screen
             ),
           ),
           Center(
             child: ClipRRect(
+
+              
               borderRadius: BorderRadius.circular(20),
               child: BackdropFilter(
                 filter: ImageFilter.blur(sigmaX: 11, sigmaY: 11),

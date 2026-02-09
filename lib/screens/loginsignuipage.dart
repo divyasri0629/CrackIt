@@ -17,8 +17,7 @@ class Loginsignuipage extends StatelessWidget {
           SizedBox(
             height: double.infinity,
             width: double.infinity,
-            child: Image.asset(
-              'assets/c12.jpg',
+            child: Image.network("https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
               fit: BoxFit.fill,
             ),
           ),
